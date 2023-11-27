@@ -1,0 +1,98 @@
+/* Colores página*/
+
+:root{
+    --primary-main:#DC879A ;
+    --primary-dark:#DC879A ;
+    --primary-light:#DC879A ;
+    --secondary-main:#ffffff;
+    
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .contenedor{
+        /*margin-top: 40px;*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+    .left{
+        background-color: var(--primary-dark);
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+        color: var(--secondary-light);
+        padding:80px;
+        gap:20px;
+    
+    
+    }
+    
+    .right{
+        background: url("img/pexels-nati-17362172.jpg");
+        background-size: cover;
+        background-position: center;
+        
+    
+    }
+    
+    
+    .contenedor1{
+        padding:60px 80px ;
+        background-color: var(--secondary-main);
+       
+    }
+    
+    .titulo1 {
+        text-align: center;
+        margin-top: 0.75rem; 
+        color:var(--primary-dark);
+    }
+    
+    
+    
+    .titulo2{
+        display:flex;
+        width:100%;
+        justify-content: center;
+        gap:80px;
+        margin-top: 60px;
+        color:var(--primary-dark)
+    
+    }
+    
+    .contenedor2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    .left1{
+        background: url("img/pexels-alyona-yambakova-18058977.jpg");
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    .right1{
+        background-color:var(--primary-dark);
+        display: grid;
+        place-items: center;
+        color:white;
+        padding:80px;
+    }
+    
+    
+    .footer{
+        background-color:var(--primary-main);
+        padding: 50px 80px;
+        color:var(--secondary-main);
+    }
+
+    
+    
